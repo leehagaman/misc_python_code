@@ -1,0 +1,149 @@
+additional_resources:
+- {description: 'Code snippet for calculating the CNP chi square values reported in
+    Table II of arXiv:2110.14080 using this data release', location: CalculateChiSquareCNP.py}
+comment: Data release for the first results from MicroBooNE's deep learning-based
+  search for an excess of charged-current quasi-elastic electron neutrinos, corresponding
+  to informaiton from arXiv:2110.14080
+hepdata_doi: 10.17182/hepdata.114859.v1
+---
+additional_resources:
+- {description: 1D array of observed $\nu_e$ CCQE 1e1p candidate events per reconstructed
+    neutrino energy bin., location: nue_1e1p_data.txt}
+- {description: 1D array of predicted total background events per reconstructed neutrino
+    energy bin after the 1mu1p constraint., location: nue_1e1p_constr_pred.txt}
+- {description: 1D array of predicted total background + LEE events per reconstructed
+    neutrino energy bin after the 1mu1p constraint., location: nue_1e1p_constr_pred_lee.txt}
+- {description: 1D array of predicted muon neutrino background events (from emprical
+    Landau+linear fit) per reconstructed neutrino energy bin., location: nue_1e1p_numu_bkg_fit.txt}
+- {description: 1D array of bin boundaries in reconstructed neutrino energy. Given
+    in MeV., location: nue_1e1p_bins.txt}
+data_file: data_0.yaml
+description: Observed NuE data and background (+ LEE) prediction, including the muon
+  neutrino background prediction from the empirical fit, for arXiv:2110.14080. The
+  prediction incorporates the constraint from the 1mu1p sample
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE data and background (+ LEE) constrained prediction
+table_doi: 10.17182/hepdata.114859.v1/t1
+---
+additional_resources:
+- {description: 1D array of observed $\nu_e$ CCQE 1e1p candidate events per reconstructed
+    neutrino energy bin., location: nue_1e1p_data.txt}
+- {description: 1D array of predicted total background events per reconstructed neutrino
+    energy bin before the 1mu1p constraint., location: nue_1e1p_nom_pred.txt}
+- {description: 1D array of predicted total background + LEE events per reconstructed
+    neutrino energy bin before the 1mu1p constraint., location: nue_1e1p_nom_pred_lee.txt}
+- {description: 1D array of predicted muon neutrino background events (from emprical
+    Landau+linear fit) per reconstructed neutrino energy bin., location: nue_1e1p_numu_bkg_fit.txt}
+- {description: 1D array of bin boundaries in reconstructed neutrino energy. Given
+    in MeV., location: nue_1e1p_bins.txt}
+data_file: data_1.yaml
+description: Observed NuE data and background (+ LEE) prediction, including the muon
+  neutrino background prediction from the empirical fit, for arXiv:2110.14080. The
+  prediction does not incorporate the constraint from the 1mu1p sample
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE data and background (+ LEE) unconstrained prediction
+table_doi: 10.17182/hepdata.114859.v1/t2
+---
+additional_resources:
+- {description: 2D array of (systematic uncertainty only) predicted background fractional
+    covariance matrix per reconstructed neutrino energy bins after the 1mu1p constraint.,
+  location: nue_1e1p_cov_constr.txt}
+- {description: 1D array of bin boundaries in reconstructed neutrino energy. Given
+    in MeV., location: nue_1e1p_bins.txt}
+data_file: data_2.yaml
+description: NuE background fractional covariance matrix after the 1mu1p constraint
+  from arXiv:2110.14080
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE background constrained fractional covariance matrix
+table_doi: 10.17182/hepdata.114859.v1/t3
+---
+additional_resources:
+- {description: 2D array of (systematic uncertainty only) predicted LEE fractional
+    covariance matrix per reconstructed neutrino energy bins after the 1mu1p constraint.,
+  location: nue_1e1p_cov_constr_lee.txt}
+- {description: 1D array of bin boundaries in reconstructed neutrino energy. Given
+    in MeV., location: nue_1e1p_bins.txt}
+data_file: data_3.yaml
+description: NuE background+LEE fractional covariance matrix after the 1mu1p constraint
+  from arXiv:2110.14080
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE background+LEE constrained fractional covariance matrix
+table_doi: 10.17182/hepdata.114859.v1/t4
+---
+additional_resources:
+- {description: 2D array of (systematic uncertainty only) predicted background fractional
+    covariance matrix per reconstructed neutrino energy bins before the 1mu1p constraint.,
+  location: nue_1e1p_cov_nom.txt}
+- {description: 1D array of bin boundaries in reconstructed neutrino energy. Given
+    in MeV., location: nue_1e1p_bins.txt}
+data_file: data_4.yaml
+description: NuE background fractional covariance matrix before the 1mu1p constraint
+  from arXiv:2110.14080
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE background unconstrained fractional covariance matrix
+table_doi: 10.17182/hepdata.114859.v1/t5
+---
+additional_resources:
+- {description: 2D array of (systematic uncertainty only) predicted LEE fractional
+    covariance matrix per reconstructed neutrino energy bins before the 1mu1p constraint.,
+  location: nue_1e1p_cov_nom_lee.txt}
+- {description: 1D array of bin boundaries in reconstructed neutrino energy. Given
+    in MeV., location: nue_1e1p_bins.txt}
+data_file: data_5.yaml
+description: NuE background+LEE fractional covariance matrix before the 1mu1p constraint
+  from arXiv:2110.14080
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE background+LEE unconstrained fractional covariance matrix
+table_doi: 10.17182/hepdata.114859.v1/t6
+---
+additional_resources:
+- {description: 'ntuple file of 7609 predicted electron neutirno events, containing
+    information on reconstructed neutrino energy, true neutrino energy and event weight
+    (scaled to 6.67e20 POT) for each event.', location: nue_eventlist.txt}
+data_file: data_6.yaml
+description: NuE simulation from arXiv:2110.14080
+keywords:
+- name: reactions
+  values: [NUE CCQE]
+- name: observables
+  values: [DN/DE]
+- name: phrases
+  values: [Neutrino LArTPC Interactions]
+name: NuE simulation
+table_doi: 10.17182/hepdata.114859.v1/t7

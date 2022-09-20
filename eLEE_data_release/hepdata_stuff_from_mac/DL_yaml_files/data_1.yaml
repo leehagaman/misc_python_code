@@ -1,0 +1,95 @@
+dependent_variables:
+- header: {name: 1e1p Sample Observation, units: counts per bin}
+  values:
+  - errors:
+    - asymerror: {minus: -1.9143671565956106, plus: 3.162814991806341}
+      label: stat
+    value: 4
+  - errors:
+    - asymerror: {minus: -0.8272524656403185, plus: 2.299569711568256}
+      label: stat
+    value: 1
+  - errors:
+    - asymerror: {minus: -0.8272524656403185, plus: 2.299569711568256}
+      label: stat
+    value: 1
+  - errors:
+    - asymerror: {minus: -1.2918296227755648, plus: 2.637910099146559}
+      label: stat
+    value: 2
+  - errors:
+    - asymerror: {minus: -2.1597243160340542, plus: 3.3825392211990213}
+      label: stat
+    value: 5
+  - errors:
+    - asymerror: {minus: -1.632726745869111, plus: 2.918242367097899}
+      label: stat
+    value: 3
+  - errors:
+    - asymerror: {minus: -2.7684322445072915, plus: 3.945220258747698}
+      label: stat
+    value: 8
+  - errors:
+    - asymerror: {minus: 0.0, plus: 1.8410547609529326}
+      label: stat
+    value: 0
+  - errors:
+    - asymerror: {minus: -0.8272524656403185, plus: 2.299569711568256}
+      label: stat
+    value: 1
+  - errors:
+    - asymerror: {minus: 0.0, plus: 1.8410547609529326}
+      label: stat
+    value: 0
+- header: {name: 1e1p Sample Total Background Prediction (Unconstrained), units: counts
+      per bin}
+  values:
+  - {value: 1.7210158742468715}
+  - {value: 3.2197328392334565}
+  - {value: 2.916224217932062}
+  - {value: 2.8238164171104554}
+  - {value: 3.1481503816715652}
+  - {value: 2.9776962942387017}
+  - {value: 2.8726438026244123}
+  - {value: 2.577059859454922}
+  - {value: 2.558364855753583}
+  - {value: 2.5773475987551016}
+- header: {name: 1e1p Sample Total Background + LEE Prediction (Unonstrained), units: counts
+      per bin}
+  values:
+  - {value: 4.169889214246871}
+  - {value: 7.318023229233456}
+  - {value: 4.717177337932062}
+  - {value: 3.7261574971104556}
+  - {value: 3.637743061671565}
+  - {value: 3.2085842542387017}
+  - {value: 2.9444811626244123}
+  - {value: 2.581772529454922}
+  - {value: 2.558364855753583}
+  - {value: 2.5773475987551016}
+- header: {name: 1e1p Sample $\nu_\mu$ Background Prediction (from Empirical Fit),
+    units: counts per bin}
+  values:
+  - {value: 0.903934}
+  - {value: 0.734679}
+  - {value: 0.297141}
+  - {value: 0.125259}
+  - {value: 0.0809506}
+  - {value: 0.0906823}
+  - {value: 0.130078}
+  - {value: 0.193342}
+  - {value: 0.281483}
+  - {value: 0.398172}
+independent_variables:
+- header: {name: $E_\nu$, units: MeV}
+  values:
+  - {high: 300.0, low: 200.0}
+  - {high: 400.0, low: 300.0}
+  - {high: 500.0, low: 400.0}
+  - {high: 600.0, low: 500.0}
+  - {high: 700.0, low: 600.0}
+  - {high: 800.0, low: 700.0}
+  - {high: 900.0, low: 800.0}
+  - {high: 1000.0, low: 900.0}
+  - {high: 1100.0, low: 1000.0}
+  - {high: 1200.0, low: 1100.0}
