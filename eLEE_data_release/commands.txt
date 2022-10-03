@@ -2,4 +2,5 @@ rm WC_yaml_files.zip
 
 zip -r WC_yaml_files.zip WC_yaml_files -x "WC_yaml_files/.DS_Store"
 
+(use this one)
 zip -r WC_yaml_files.zip WC_yaml_files -x "*/.*"
